@@ -5,14 +5,52 @@
 	<title>WebGi starter</title>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+
+	<nav class="nav-bar">
+		<img class="nav-logo" src="assets/images/logo.svg">
+		<button class="button-nav">BUY NOW</button>
+	</nav>
+
+
+
+	<div class="container">
+		<section class="section first">
+			<div class="section--one--container">
+				<h1>Drillthing 3000</h1>
+				<p>Meet the Drillthing 3000 - the drill that spins faster than a hyperactive tornado. It's got reverse action that could make a movie stunt driver weep and a lock-on button for when you're feeling extra clingy. Drilling? More like thrill-ing!</p>
+				<button class="button--hero">KNOW MORE</button>
+			</div>
+		</section>
+
+		<section class="section second">
+			<div class="section--two--container">
+				<h2>Comfortable to use</h2>
+				<p>This drill is so comfy, it's like holding a marshmallow - if marshmallows could pierce through concrete. It's got a grip that won't quit and a lightweight design, so you can wave it around like a magic wand. Abracadabra, hole in the wall!</p>
+			</div>
+			<div class="custom--bg"></div>
+		</section>
+
+		<section class="section third">
+			<div class="section--third--container">
+				<h2>Wood and metal</h2>
+				<p>Wood? Metal? This drill laughs in the face of all materials. It doesn't come with metal bits, but hey, it's a free country. Live dangerously, buy your own bits, and drill into the sunset.</p>
+				<button class="button--customize">CUSTOMIZE</button>
+			</div>
+		</section>
+	</div>
+
 	<div id="webgi-canvas-container">
 		<canvas id="webgi-canvas"></canvas>
 	</div>
-
+	
 	<script src="src/index.ts" type="module"></script>
 </body>
-
 </html>
